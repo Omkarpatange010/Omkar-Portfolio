@@ -48,7 +48,7 @@
 
 ## 🤝 Let’s Connect
 
-[![LinkedIn](www.linkedin.com/in/om-patange)](your-linkedin-url)  
+[![LinkedIn](www.linkedin.com/in/om-patange)](www.linkedin.com/in/om-patange)  
 [![Twitter](https://img.shields.io/badge/Twitter-@yourtwitter-blue)](https://twitter.com/yourtwitter)  
 [![Portfolio](https://github.com/Omkarpatange010/My-Portfolio-)](https://github.com/Omkarpatange010/My-Portfolio-)
 
