@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1f1f1f, #282828);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header.hero {
+    background: #121212;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+    color: #0ff;
+    animation: glow 2s infinite alternate;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0ff;
+    transition: transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    transform: scale(1.1);
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.intro img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #0ff;
+    transform: rotateY(0deg);
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) rotateY(0deg); }
+    50% { transform: translateY(-10px) rotateY(10deg); }
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 5px #0ff; }
+    to { text-shadow: 0 0 20px #0ff; }
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #000;
+}
