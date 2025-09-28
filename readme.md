@@ -1,5 +1,5 @@
 <!-- HEADER -->
-<h1 align="center">Hi Omkar Patange, I’m <Omkar Patange></h1>
+<h1 align="center">Hi  I’m Omkar Patange, <Omkar Patange></h1>
 <p align="center">
   <a href="https://github.com/Omkarpatange010"><img src="https://komarev.com/ghpvc/?username=YourUsername&color=brightgreen" alt="Profile views" /></a>
   <a href="https://github.com/Omkarpatange010/My-Portfolio-"><img src="https://img.shields.io/github/forks/YourUsername?style=social" alt="Forks" /></a>
