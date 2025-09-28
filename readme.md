@@ -10,12 +10,12 @@
 
 ## 🧑‍💻 About Me
 
-- 🔭 I’m currently working on: *Project / Area*
+- 🔭 I’m currently working on: *AWS & Devops*
 - 🌱 I’m currently learning: *AWS / Lambda, Devops Tools*
 - 👯 I’m looking to collaborate on: *Type of Projects*
 - 💬 Ask me about: *Topics you like to help with or discuss*
 - 📫 How to reach me: *Email / Social Links*
-- ⚡ Fun fact: *Something interesting about you*
+- ⚡ Fun fact: *I quickly became one of the fastest-growing apps / services*
 
 ---
 
@@ -32,7 +32,7 @@
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Omkarpatange010&show_icons=true&theme=default" alt="YourUsername's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Omkarpatange010&show_icons=true&theme=default" alt="Omkarpatange010's GitHub stats" />
 </p>
 
 ---
@@ -54,4 +54,4 @@
 
 ---
 
-<p align="center">“Your favorite quote or motto goes here.”</p>
+<p align="center">“I generate responses based on patterns in what I was trained on”</p>
