@@ -81,3 +81,322 @@ footer {
     padding: 1rem;
     background: #000;
 }
+
+/* ========== Global Reset & Base ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #f0f0f5;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ========== Header / Hero / Navigation ========== */
+header.hero {
+  position: relative;
+  padding: 2rem 1rem;
+  background: linear-gradient(to bottom right, rgba(26,26,46,0.9), rgba(22,33,62,0.9));
+  color: #fff;
+}
+
+header.hero nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header.hero nav h1 {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+header.hero nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+header.hero nav ul li a {
+  color: #f0f0f5;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  padding: 4px 0;
+  transition: color 0.3s ease;
+}
+
+header.hero nav ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: #ffdd59;
+  transition: width 0.3s ease;
+}
+
+header.hero nav ul li a:hover {
+  color: #ffdd59;
+}
+
+header.hero nav ul li a:hover::after {
+  width: 100%;
+}
+
+/* ========== Intro (Home) ========== */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 1rem;
+  gap: 2rem;
+}
+
+.intro .intro-text {
+  flex: 1;
+  color: #f5f5f5;
+}
+
+.intro .intro-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+.intro .intro-text p {
+  font-size: 1.1rem;
+  color: #dcdce1;
+  margin-top: 0.4rem;
+}
+
+.intro img {
+  flex: 1;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.intro img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+/* ========== Main Sections ========== */
+main {
+  flex: 1;
+  padding: 2rem 1rem;
+}
+/* ========== Social / Find Me Online Section ========== */
+#social {
+  margin: 4rem auto;
+  max-width: 700px;
+  text-align: center;
+  color: #f0f0f5;
+}
+
+#social h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+#social h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffdd59;
+  margin: 0.6rem auto 0;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.1rem;
+}
+
+.social-label {
+  font-weight: 600;
+  color: #e0e0e8;
+}
+
+.social-item a {
+  color: #ffdd59;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.social-item a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #ffdd59;
+  transition: width 0.3s ease;
+}
+
+.social-item a:hover {
+  color: #fff;
+}
+
+.social-item a:hover::after {
+  width: 100%;
+}
+
+.social-handle {
+  color: #dcdce1;
+  font-style: italic;
+}
+
+/* Responsive tweak */
+@media (max-width: 600px) {
+  .social-item {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .social-label, .social-handle, .social-item a {
+    font-size: 1rem;
+  }
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #e0e0e8;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+section h2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #ffdd59;
+  margin: 0.6rem auto 0;
+}
+
+/* ========== Project Section Styles ========== */
+.project {
+  margin: 2rem auto;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 1.8rem 1.4rem;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-8px);
+}
+
+.project h3 {
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 0.8rem;
+}
+
+.project h3 .date {
+  font-size: 0.9rem;
+  color: #dcdce1;
+  margin-left: 0.8rem;
+  font-style: italic;
+}
+
+.project ul {
+  list-style: disc inside;
+  margin-left: 1rem;
+  color: #e0e0e8;
+}
+
+.project ul li {
+  margin: 0.6rem 0;
+}
+
+/* ========== Skills / Achievements Section ========== */
+#skills {
+  text-align: center;
+}
+
+#skills p {
+  font-size: 1rem;
+  color: #dcdce1;
+  margin: 0.8rem 0;
+}
+
+#skills p + p {
+  margin-top: 1rem;
+}
+
+/* ========== Contact Section ========== */
+#contact {
+  text-align: center;
+  color: #f0f0f5;
+}
+
+#contact p {
+  margin: 0.6rem 0;
+  font-size: 1.1rem;
+}
+
+/* ========== Footer ========== */
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background: #0f0f1f;
+  color: #a0a0b2;
+  font-size: 0.9rem;
+}
+
+/* ========== Responsive / Mobile ========== */
+@media (max-width: 900px) {
+  .intro {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .intro img {
+    width: 80%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  header.hero nav ul {
+    display: none; /* you may implement mobile nav menu toggle */
+  }
+  header.hero nav {
+    justify-content: space-between;
+  }
+}
