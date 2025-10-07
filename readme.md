@@ -14,7 +14,7 @@
 - 🌱 I’m currently learning: *AWS / Lambda, Devops Tools*
 - 👯 I’m looking to collaborate on: *Type of Projects*
 - 💬 Ask me about: *Topics you like to help with or discuss*
-- 📫 How to reach me: *Email / Social Links*
+- 📫 How to reach me: Omkarpatange77@gmail.com/ Social Links*
 - ⚡ Fun fact: *I quickly became one of the fastest-growing apps / services*
 
 ---
